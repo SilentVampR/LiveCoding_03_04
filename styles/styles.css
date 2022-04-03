@@ -1,0 +1,253 @@
+.page {
+  background-color: #090D15;
+  background-image: url(../images/background.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+
+/* HEADER */
+
+.header {
+  width: 100%;
+  background-color: #131521;
+}
+
+.header__wrapper {
+  /* width: 1216px;*/
+  width: 100%;
+  min-height: 70px;
+  max-width: 1216px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url(../images/logo_bg.svg);
+  width: 119px;
+  height: 32px;
+  background-size: contain;
+  background-position: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-link {
+  color: #9398B2;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0 36px 0 0;
+  text-decoration: none;
+}
+
+.header__menu-link:hover {
+  color: white;
+}
+
+.language-selector {
+  background-color: #191D2D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  width: 102px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none;
+}
+
+.language-selector:hover {
+  outline: 1px green solid;
+}
+
+.language-selector__flag {
+  width: 23px;
+  height: 16px;
+  background-size: contain;
+  background-position: center;
+}
+
+.language-selector__flag_country_ru {
+  background-image: url(../images/lang_RU.svg);
+}
+
+.language-selector__text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9398B2;
+  padding: 0;
+  margin: 0;
+}
+
+.language-selector__arrow {
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: contain;
+}
+
+.language-selector__arrow_direction_bottom {
+  background-image: url(../images/arrow_bottom.svg);
+}
+
+
+/* MAIN */
+
+.main {
+  width: 100%;
+}
+
+
+/* TOP-INFO */
+
+.top-info {
+  width: 100%;
+  max-width: 1216px;
+  margin: 0 auto;
+  background-image: url(../images/top-info_bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  min-height: 474px;
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+
+.top-info__title {
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  max-width: 530px;
+}
+
+.top-info__button {
+  background-color: #6E00DC;
+  color: white;
+  padding: 21px 32px;
+  box-sizing: border-box;
+  min-height: 60px;
+  border-radius: 30px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 32px;
+}
+
+.top-info__button-arrow {
+  margin-left: 24px;
+  font-weight: 900;
+}
+
+.benefits {
+  width: 100%;
+  max-width: 1568px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.benefits__background {
+  width: 100%;
+  height: 653px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.benefits__background_side_left {
+  background-image: url(../images/aside_bg_left.png);
+}
+
+.benefits__background_side_right {
+  background-image: url(../images/aside_bg_right.png);
+}
+
+.benefits__text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  max-width: 402px;
+}
+
+.benefits__line {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 159px;
+}
+
+.benefits__line_type_left {
+  background-image: url(../images/benefits_left_line.png);
+}
+
+.benefits__line_type_right {
+  background-image: url(../images/benefits_right_line.png);
+}
+
+.benefits__image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+
+}
+
+.benefits__image_char_prophet {
+  background-image: url(../images/death_prophet.png);
+  width: 522px;
+  height: 522px;
+  z-index: 2;
+  top: 108px;
+  left: 365px;
+}
+
+.benefits__image_char_leshrac {
+  background-image: url(../images/leshrac.png);
+  width: 409px;
+  height: 409px;
+  z-index: 3;
+  top: calc(134px + 108px);
+}
