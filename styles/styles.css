@@ -118,6 +118,16 @@
   background-image: url(../images/arrow_bottom.svg);
 }
 
+.section__top-line {
+  background-image: url(../images/footer_top_line.png);
+  height: 1px;
+  width: 100%;
+  max-width: 1216px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
 
 /* MAIN */
 
@@ -131,7 +141,7 @@
 .top-info {
   width: 100%;
   max-width: 1216px;
-  margin: 0 auto;
+  margin: 0 auto 15px;
   background-image: url(../images/top-info_bg.png);
   background-repeat: no-repeat;
   background-position: right center;
@@ -180,6 +190,10 @@
 
 .benefits {
   width: 100%;
+  padding-bottom: 89px;
+}
+
+.benefits__wrapper {
   max-width: 1568px;
   margin: 0 auto;
   display: flex;
@@ -198,14 +212,17 @@
   justify-content: end;
   align-items: center;
   flex-direction: column;
+  margin-top: -60px; /*Такое лучше не творить, но макет хочет, чтобы изображения были именно так*/
 }
 
 .benefits__background_side_left {
   background-image: url(../images/aside_bg_left.png);
+  margin-right: -60px;
 }
 
 .benefits__background_side_right {
   background-image: url(../images/aside_bg_right.png);
+  margin-left: -60px;
 }
 
 .benefits__text {
@@ -216,6 +233,7 @@
   line-height: 29px;
   text-align: center;
   max-width: 402px;
+  margin: 26px 0 0;
 }
 
 .benefits__line {
@@ -247,7 +265,7 @@
   width: 522px;
   height: 522px;
   z-index: 2;
-  top: 108px;
+  top: 48px;
   left: 365px;
 }
 
@@ -256,11 +274,14 @@
   width: 409px;
   height: 409px;
   z-index: 3;
-  top: calc(134px + 108px);
+  top: calc(134px + 48px);
 }
 
 .faq {
   width: 100%;
+}
+
+.faq__wrapper {
   max-width: 1216px;
   display: flex;
   justify-content: space-between;
@@ -392,6 +413,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-bottom: 70px;
 }
 
 .footer {
@@ -413,15 +435,6 @@
   justify-content: space-between;
   padding-top: 70px;
   box-sizing: border-box;
-}
-
-.footer__top-line {
-  background-image: url(../images/footer_top_line.png);
-  height: 1px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .footer__info {
