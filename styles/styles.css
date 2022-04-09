@@ -164,6 +164,13 @@
   font-size: 15px;
   line-height: 18px;
   margin-top: 32px;
+  cursor: pointer;
+}
+
+.top-info__button_place_active {
+  position: absolute;
+  left: 72px;
+  bottom: 65px;
 }
 
 .top-info__button-arrow {
@@ -250,4 +257,231 @@
   height: 409px;
   z-index: 3;
   top: calc(134px + 108px);
+}
+
+.faq {
+  width: 100%;
+  max-width: 1216px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 104px;
+  padding-top: 120px;
+}
+
+.faq__question {
+  min-width: 488px;
+}
+
+.faq__question-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.faq__question-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 488px;
+  min-height: 70px;
+  padding: 26px 24px 25px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #21242E;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.faq__question-row:hover {
+  font-weight: 900;
+  background-image: url(../images/question_active_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.faq__question-row_is-active {
+  background-image: url(../images/question_active_bg.png);
+}
+
+/*.faq__question-row_is-active::before {
+  content: " ";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  background-image: linear-gradient(to right, #7B06F8 0%, #1DCB3A 100%);
+  z-index: -1;
+  border-radius: 10px;
+}*/
+
+.faq__title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  max-width: 95%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.faq__title_is-active {
+  font-weight: 900;
+}
+
+.faq__arrow {
+  color: #393E4B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+}
+
+.faq__arrow_is-active {
+  color: white;
+}
+
+.faq__answer-title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.faq__answer-paragraph {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.faq__answer-title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 11px 0 24px;
+}
+
+.faq__answer-paragraph {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 30px;
+}
+
+.action {
+  position: relative;
+  width: 100%;
+  max-width: 1216px;
+  min-height: 305px;
+  margin: 0 auto;
+  background-image: url(../images/active_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer {
+  width: 100%;
+  min-height: 320px;
+  background-color: #080C13;
+  padding-bottom: 70px;
+  box-sizing: border-box;
+}
+
+.footer__wrapper {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+
+.footer__top-line {
+  background-image: url(../images/footer_top_line.png);
+  height: 1px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__info {
+  max-width: 280px;
+  width: 100%;
+}
+
+.footer__copyright {
+  color: #364e85;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.footer__copyright:first-of-type {
+  margin-top: 25px;
+}
+
+.footer__copyright:last-of-type {
+  margin-bottom: 70px;
+}
+
+.footer__social {
+  background-image: url(../images/social.png);
+  height: 24px;
+  width: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 32px;
+}
+
+.footer__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 220px;
+}
+
+.footer__menu-link-container {
+  margin-bottom: 24px;
+}
+
+.footer__menu-link-container:last-of-type {
+  margin: 0;
+}
+
+.footer__menu-link {
+  color: #9398B2;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 }
