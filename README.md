@@ -1,4 +1,4 @@
-*Live coding*
+#Live coding 03.04.2022#
 
 Верстаем рандомный, легкий макет. Без подготвки.
 
@@ -6,4 +6,4 @@
 
 Вторая часть - https://disk.yandex.ru/d/HjYVnlZ7yJj1_w
 
-Макет - https://www.figma.com/file/tujzZhe8Oq4LPFCzc9qnTa/SkinTrade-landing-(Copy)?node-id=101%3A1697
+Макет - [тут](https://www.figma.com/file/tujzZhe8Oq4LPFCzc9qnTa/SkinTrade-landing-(Copy)?node-id=101%3A1697)
